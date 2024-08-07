@@ -8,7 +8,7 @@ interface CustomSelectProps<T extends string>{
 }
 function CustomSelect<T extends string>({ onChange, selectedValue, possibleValues } : CustomSelectProps<T>) {
     return (
-        <FormControl>
+        <FormControl sx={{ marginBottom: '1em' }}>
             <Select
             id="range-select"
             value={selectedValue}
