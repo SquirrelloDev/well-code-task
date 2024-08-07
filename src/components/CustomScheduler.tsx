@@ -1,4 +1,4 @@
-import { Paper } from "@mui/material";
+import { Box } from "@mui/material";
 import { Appointments, AppointmentTooltip, Scheduler, WeekView } from "@devexpress/dx-react-scheduler-material-ui";
 import { AppointmentModel, ViewState } from "@devexpress/dx-react-scheduler";
 const testData: AppointmentModel[] = [
@@ -7,14 +7,14 @@ const testData: AppointmentModel[] = [
 ]
 function CustomScheduler() {
     return (
-        <Paper>
-            <Scheduler data={testData} height={560} locale='pl-PL' firstDayOfWeek={1}>
+        <Box>
+            <Scheduler data={testData} height={360} locale='pl-PL' firstDayOfWeek={1}>
                 <ViewState currentDate={'2024-11-01'}/>
                 <WeekView />
                 <Appointments />
                 <AppointmentTooltip />
             </Scheduler>
-        </Paper>
+        </Box>
     );
 }
 export default CustomScheduler

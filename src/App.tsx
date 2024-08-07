@@ -1,15 +1,12 @@
-import '@/App.css'
-import CustomScheduler from "@/components/CustomScheduler.tsx";
-import Header from '@/components/Header';
+import "@/App.css";
+import SchedulerCard from "./components/SchedulerCard";
 
 function App() {
-
-    return (
-        <>
-            <Header />
-            <CustomScheduler />
-        </>
-    )
+  return (
+    <>
+      <SchedulerCard />
+    </>
+  );
 }
 
-export default App
+export default App;
