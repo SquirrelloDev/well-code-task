@@ -1,12 +1,15 @@
-import './App.css'
+import '@/App.css'
+import CustomScheduler from "@/components/CustomScheduler.tsx";
+import Header from '@/components/Header';
 
 function App() {
 
-  return (
-    <>
-        <p>Hello from the project!</p>
-    </>
-  )
+    return (
+        <>
+            <Header />
+            <CustomScheduler />
+        </>
+    )
 }
 
 export default App
