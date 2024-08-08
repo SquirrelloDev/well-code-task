@@ -1,0 +1,1 @@
+export type ViewTypes = 'Day' | 'Week' | 'Month'

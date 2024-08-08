@@ -1,12 +1,12 @@
-import './App.css'
+import "@/App.css";
+import SchedulerCard from "./components/SchedulerCard";
 
 function App() {
-
   return (
     <>
-        <p>Hello from the project!</p>
+      <SchedulerCard />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

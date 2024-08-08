@@ -28,7 +28,7 @@ export default tseslint.config({
     eqeqeq: [
       'error'
     ],
-    objectcurlyspacing: [
+    'object-curly-spacing': [
       'error',
       'always'
     ]

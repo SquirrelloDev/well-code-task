@@ -1,0 +1,1 @@
+export type SelectValues<T> = {name: T, displayName: string}[]
